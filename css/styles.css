@@ -130,23 +130,31 @@ h1,h2,h3,ul,p{
     background-color: var(--contrast-sections-color);
     color: var(--contrast-text-color);
     padding-top: 60px;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
+}
+.footer-logo{
+    margin-bottom: 20px;
 }
 .footer-contact{
     font-style: normal; /* italic off */
     line-height: 1.71;
     color: var(--transparent-text-color);
-    margin-top: 9px;
+    
 }
 .adress{
     font-style: normal; /* italic off */
     line-height: 1.71;
     color: inherit; 
-    margin-top: 20px;
+    /* margin-top: 20px; */
 } 
 .footer-links{
-    display: block;
+    /* display: block; */
+    margin-bottom: 9px;
 }
+.footer-links:last-child{
+    margin-bottom: 0;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
