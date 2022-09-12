@@ -171,7 +171,8 @@ h1,h2,h3,ul,p{
     background-color: var(--contrast-sections-color);
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px; 
+    padding-bottom: 200px;
+
 }
 .hero-title{
     font-weight: 900;
